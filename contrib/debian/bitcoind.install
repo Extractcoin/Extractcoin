@@ -1,0 +1,2 @@
+usr/local/bin/extractcoind usr/bin
+usr/local/bin/extractcoin-cli usr/bin

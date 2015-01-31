@@ -1,0 +1,6 @@
+usr/local/bin/extractcoin-qt usr/bin
+share/pixmaps/extractcoin32.xpm usr/share/pixmaps
+share/pixmaps/extractcoin16.xpm usr/share/pixmaps
+share/pixmaps/extractcoin128.png usr/share/pixmaps
+debian/extractcoin-qt.desktop usr/share/applications
+debian/extractccoin-qt.protocol usr/share/kde4/services/

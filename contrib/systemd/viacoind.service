@@ -1,0 +1,17 @@
+[Unit]
+Description=Extractcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=extractcoind
+Group=extractcoind
+
+Type=forking
+PIDFile=/var/lib/extractcoind/extractcoind.pid
+ExecStart=/usr/bin/extractcoind -daemon -pid=/var/lib/extractcoind/extractcoind.pid -conf=/etc/extractcoind.conf -datadir=/var/lib/extractcoind
+
+Restart=always
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
