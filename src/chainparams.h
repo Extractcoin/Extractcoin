@@ -11,7 +11,6 @@
 #include "primitives/block.h"
 #include "protocol.h"
 #include "uint256.h"
-#include "bignum.h"
 
 #include <vector>
 
